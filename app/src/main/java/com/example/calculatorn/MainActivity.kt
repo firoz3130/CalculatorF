@@ -3,6 +3,7 @@ package `in`.edu.cambridge.calculator
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import com.example.calculatorn.R
 import net.objecthunter.exp4j.ExpressionBuilder
 
 class MainActivity : AppCompatActivity() {
@@ -51,7 +52,7 @@ class MainActivity : AppCompatActivity() {
 
 
         result = findViewById(R.id.result)
-        expression = findViewById(R.id.expression)
+        expression = findViewById(R.id.Expression)
 
 
         zero.setOnClickListener {
